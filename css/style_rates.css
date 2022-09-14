@@ -1,0 +1,82 @@
+/* Aqui esta el estilo del titulo y sus fuentes */
+.rates_tit{
+    display: inline-block;
+    background-image: url(../assets/Images/degradado.jpg);
+    background-size: cover;
+    min-height: 10rem;
+    max-height: 30rem;
+    padding-top: 2rem;
+    width: 100%;
+}
+.rates_tit_h{
+    color: whitesmoke;
+    text-shadow: black 2px 2px 2px;
+    font-family: cyber;
+}
+.rates_tit_text{
+    color:aliceblue;
+    text-shadow: black 2px 2px 2px;
+    font-family: tommy;
+}
+.rates_cont{
+    
+    display: inline-block;
+    width: 70%;
+    background-color: rgba(2, 2, 56, 0.7);
+    border-radius: 5px;
+    padding-bottom: 2rem;
+}
+.subtit{
+    margin-top: 3rem;
+    color: blue;
+    text-shadow: rgb(68, 68, 68) 1px 1px 1px;
+    font-family: tommy;
+}
+/* A partir de aqui estan los estilos de la tabla de precioss */
+table{
+    font-family: poppins;
+    text-align: center;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 30px auto;
+}
+table td{
+    border: rgb(23, 23, 172) 2px solid;
+    background-color: rgb(19, 19, 114);
+    padding: 0.5rem;
+    color: whitesmoke;
+    font-family: tommy;
+}
+
+/* Des de aqui estan los estilos de la parte de recomendaciones */
+.recom{
+    display: inline-block;
+    width: 70%;   
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    border: solid grey;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.recom_text{
+    color: white;
+    font-family: tommy;
+}
+.recom_text_cont{
+    text-align: left;
+}
+/* desde aqui estan los estilos de la parte de informacion */
+.info{
+    padding-left: 1rem;
+    text-align: left;
+    display: inline-block;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border: solid rgb(5, 5, 109);
+    border-radius: 5px;
+}
+.info_text{
+    font-family: Helvetica, sans-serif;
+    text-shadow: rgb(36, 36, 36) 2px 2px;
+}

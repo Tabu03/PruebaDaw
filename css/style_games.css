@@ -1,0 +1,44 @@
+/* Aqui esta el estilo del titulo y sus fuentes */
+.tit_games{
+    width: 100%;
+    display: inline-block;
+    background-image: url(../assets/Images/degradado.jpg);
+    background-size: cover;
+    min-height: 10rem;
+    max-height: 30rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-shadow: black 2px 2px 5px;
+}
+.tit_text{
+    color: white;
+    font-family: cyber;
+    font-size: 2.5rem;
+}
+/* Desde aqui esta el container principal y los subcontainers de cada juego junto a su
+estilo de fuente y tamaños */
+.container{
+    display: inline-block;
+    background-color: rgba(6, 6, 71, 0.7);
+    width: 90%;
+    padding-bottom: 6rem;
+    padding-top: 5rem;
+}
+.juegos{
+    vertical-align: top;
+    color: white;
+    font-family: tommy;
+    display: inline-block;
+    width: 30%;   
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    height: 40rem;
+    border: solid grey;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.juego_img{
+    width: 15rem;
+    height: 20rem;
+}

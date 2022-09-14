@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-image: url(../assets/Images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+@font-face {
+    font-family: cyber;
+    src: url(../assets/fonts/cyber.ttf);
+}
+@font-face {
+    font-family: tommy;
+    src: url(../assets/fonts/tommy_soft.otf);
+}
+/* Desde aqui se configura el estilo del header */
+.header{
+    position: sticky;
+    top: 0rem;
+    background-color: rgb(0, 0, 40);
+    text-align: left;
+    height: 5rem;
+    width: 100%;
+    margin: 0;
+}
+.header_img_container{
+    display: inline-block;
+    height: 3.5rem;
+    margin-left: 2rem;
+}
+.header_img{
+    vertical-align: top;
+    width: 10rem;
+}
+
+.header_menu{
+    position: absolute;
+    right: 0;
+    vertical-align: top;
+    display: inline-block;
+}
+.header_item{
+    display:inline-block;
+    width: 10rem;
+    height: 3rem;
+    padding-top: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 130%;
+    font-family: cyber;
+}
+.header_item:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+/* A partir de aqui se definen los estilos del resto de la pagina */
+/* La priemra seccion empieza aqui siendo una imagen de fondo con 
+algo de texto */
+.cont1{
+    background-image: url(../assets/Images/cont1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: left;
+    vertical-align: top;
+    height: 30rem;
+    padding-top: 15rem;
+    padding-left: 7rem;
+}
+.cont1_tit{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3rem; 
+}
+.cont1_text{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* La segunda seccion cuenta con dos div y un titulo a modo de presentacion
+de la empresa y algunas caracteristicas */
+.cont2{
+    width: 90%;
+    margin-top: 3rem;
+     text-align: center;
+}
+.cont2_tit{
+    margin-left: 10rem;
+    color: white;
+    font-size: 3rem;
+    font-family: Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+
+}
+.sec1{
+    display: inline-block;
+    width: 55%;
+    height: 29rem;
+    padding-top: 4rem;
+}
+.sec2{
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    background-color: rgba(0, 0, 40, 0.7);
+    border: solid rgb(5, 5, 71);
+    border-radius: 3px;
+    text-align: left;
+    padding: 2rem;
+}
+.sec2_tit{
+    color: white;
+    font-size: 1.3rem;
+    font-family:  Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+.sec2_text{
+    color: white;
+    font-size: 1.1rem;
+    font-family:  Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+}
+/* De aqui en adelante esta la tercera y ultima seccion que consta de
+algunas caracteristicas del establecimiento y reservas */
+.cont3{
+    background-image: url(../assets/Images/cont3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37rem;
+    text-align: center;
+
+}
+.cont3_tit{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.cont3_sec{
+    vertical-align: top;
+    display: inline-block;
+    width: 26%;
+    background-color: rgba(0, 0, 40, 0.7);
+    border: solid rgb(11, 11, 97);
+    padding: 0.7rem;
+    margin-bottom: 2rem;
+    margin-right: 0.6rem;
+}
+.cont3_sec_tit{
+    color: white;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.cont3_sec_text{
+    color: white;
+    font-size: 1.1rem;
+    font-family: Helvetica;
+}
+.cont3_sec_h{
+    display: inline-block;
+    border: solid rgb(9, 90, 196);
+    background-color: rgba(0, 52, 121, 0.7) ;
+    width: 50%;
+}
+.cont3_sec_h_tit{
+    color: white;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+}
+.cont3_sec_h_text{
+    color: white;
+    font-size: 1.1rem;
+    font-family: Helvetica;
+}
+/* Desde aqui esta el footer en el que se incluyen las redes sociales e 
+informacin de contacto */
+.foot{
+    height: 20rem;
+    width: 100%;
+    text-align: center;
+    position: static;
+    bottom: 0;
+}
+.foot_tit{
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.cont_foot{
+    vertical-align: top;
+    display: inline-block;
+    background-color: rgba(5, 5, 59, 0.7);
+    border: solid rgba(11, 11, 143, 0.7);
+    padding: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 5rem;
+    width: 17rem;
+    position: relative;
+    bottom: 0;
+}
+.foot_img{
+    width: 4rem;
+    margin-left: 1rem;
+}
+.foot_text{
+    text-decoration: none;
+    color: white;
+    font-family: cyber;
+    font-size: 1rem;
+}
+.foot_email{
+    color: white;
+    font-family: cyber;
+}
+/* Este es el estilo y forma de la flecha que hace scroll hacia arriba */
+.scroll{
+    width: 1rem;
+    position:fixed;
+    bottom: 3rem;
+    right: 4rem;
+}
+.scroll_img{
+    width: 3rem;
+    border: solid blue;
+    border-radius: 100px;
+    box-shadow: black 3px 3px 20px;
+}

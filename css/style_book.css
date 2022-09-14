@@ -1,0 +1,67 @@
+/* Aqui esta el estilo del titulo y sus fuentes */
+.tit{
+    width: 100%;
+    display: inline-block;
+    background-image: url(../assets/Images/degradado.jpg);
+    background-size: cover;
+    min-height: 10rem;
+    max-height: 30rem;
+    padding-top: 2rem;
+    width: 100%;
+    text-shadow: black 2px 2px 5px;
+}
+.tit_text{
+    color: white;
+    font-family: cyber;
+    font-size: 2rem;
+}
+.tit_text2{
+    color: white;
+    font-family: cyber;
+    font-size: 1rem;
+}
+/* Esta es la caja de aviso los la informacion sobre el COVID-19
+tanto el estilo de la caja como su fuente */
+.aviso{
+    display: inline-block;
+    width: 40%;
+    background-color: rgba(6, 6, 71, 0.7);
+    margin: 1.5rem;
+    border-radius: 20px;
+}
+.aviso_text{
+    color: red;
+    font-family: Calibri, sans-serif;
+    font-size: 2rem;
+}
+/* Aqui esta el contenedor de los terminos y condiciones junto con le boton que te 
+llevaria a la pagina de reserva final */
+.container{
+    display: inline-block;
+    width: 80%;
+    background-color: rgba(6, 6, 71, 0.7);
+    color: white;
+    font-family: tommy;
+    text-shadow: black 2px 2px 3px;
+    text-align: center;
+}
+.info{
+    text-align: left;
+    display: inline-block;
+    width: 60%;
+    margin: 1rem;
+    border-radius: 12px;
+    padding: 2rem;
+    background-color: rgba(44, 6, 88,0.6);
+}
+button{
+    margin-top: 2rem;
+    display: inline-block;
+    width: 50%;
+    height: 3rem;
+    position: relative;
+    left: 15rem;
+    background-color: rgb(16, 197, 143);
+    color: black;
+    font-family: tommy;
+}

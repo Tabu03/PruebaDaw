@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="../css/style_contact.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon"  href="../assets/Images/favicon/favicon.png"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+
+<body>
+    <!-- Aqui esta el header generico que esta en todas las paginas -->
+    <header class="header">
+        <div class="header_img_container">
+            <img class="header_img" src="../assets/Images/logo.png" alt="">
+        </div>
+        <div class="header_menu">
+            <a class="header_item" href="../index.html">Inicio</a>
+            <a class="header_item" href="rates.html">Tarifas</a>
+            <a class="header_item" href="book.html">Reservas</a>
+            <a class="header_item" href="games.html">Juegos</a>
+            <a class="header_item" href="contact.html">Contactanos</a>
+            <a class="header_item" href="questions.html">Preguntas</a>
+        </div>
+    </header>
+    <!-- Aqui esta el titulo de la pagina -->
+    <div class="cont_tit">
+        <h1 class="tit_text">CONTACTANOS</h1>
+    </div>
+    <!-- Aqui se puede ver un div que contiene otros tres de forma que separa 
+    el mapa, el correo con el telefono y el formulario-->
+    <div class="cont_container">
+        <div class="container_cont">
+            <h2 class="container_cont_text">Nuestro contacto</h2>
+            <h3 class="container_cont_text">ilusion@hotmail.com</h3>
+            <h3 class=" container_cont_text">tlf: XXX-XXX-XXX</h3>
+        </div>
+        <div class="container_cont_map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1550.165723356338!2d-1.878004341751955!3d39.00775207912883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd665e516ac75e07%3A0x83722c0f245f8817!2sTerreno%20Sector%2014%2C%2016%2C%2002007%20Albacete%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sus!4v1640023313713!5m2!1ses!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <!-- Aqui esta el formulario el cual tiene dos div para poder separar
+        los apartados y colocarlos unos al lado de los otros -->
+        <div class="form_container">
+            <form action="">
+                <div class="form_div">
+                    Nombre y apellidos
+                    <input class="formulario" type="text" name="nombre"><br>
+                    Correo electronico
+                    <input class="formulario" type="email" name="correo" required><br>
+                    Razon de contacto
+                    <input class="formulario" type="selec"><br>
+                    Fecha
+                    <input class="formulario" type="date">
+                </div>
+                <div class="form_div">
+                    <p>¿Que nos quieres decir?</p>
+                    <textarea class="area" name="mensaje" id="" cols="60" rows="15"></textarea><br>
+                    <input type="checkbox" required>
+                    He leido y acepto los terminos y condiciones
+                    <input class="form_button1" type="reset">
+                    <input class="form_button2" type="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
